@@ -92,6 +92,20 @@ export const constantRoutes = [
 
 // 动态路由，基于用户权限动态去加载
 export const dynamicRoutes = [
+  // {
+  //   path: '/system/movie-auth',
+  //   component: Layout,
+  //   hidden: true,
+  //   permissions: ['system:movie:edit'],
+  //   children: [
+  //     {
+  //       path: 'movie/:movieId(\\d+)',
+  //       component: () => import('@/views/system/movie/authMovie'),
+  //       name: 'AuthMovie',
+  //       meta: { title: '分配电影', activeMenu: '/system/movie' }
+  //     }
+  //   ]
+  // },
   {
     path: '/system/user-auth',
     component: Layout,
