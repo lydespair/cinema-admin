@@ -22,10 +22,17 @@
             <groupId>com.ruoyi</groupId>
             <artifactId>ruoyi-common</artifactId>
         </dependency>
+        <!--腾讯云COS-->
+        <dependency>
+            <groupId>com.tencentcloudapi</groupId>
+            <artifactId>tencentcloud-sdk-java</artifactId>
+            <version>3.0.1</version>
+        </dependency>
+
         <dependency>
             <groupId>com.qcloud</groupId>
             <artifactId>cos_api</artifactId>
-            <version>5.6.75</version>
+            <version>5.6.8</version>
         </dependency>
     </dependencies>
 </project>
